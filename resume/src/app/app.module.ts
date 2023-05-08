@@ -8,6 +8,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { StudiesComponent } from './studies/studies.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SkillsService } from 'src/services/skills.service';
 
 @NgModule({
   declarations: [
@@ -20,9 +22,10 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [SkillsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
