@@ -1,0 +1,69 @@
+[
+  {
+    "name":"Gestion des stagiaires",
+    "client":"Société AL Omrane Oujda, Maroc",
+    "date":"Mars 2020 ",
+    "url":"https://github.com/oussamahoumada/Gestion-Stagaires",
+    "discription":{
+      "titre":"Développement d’une application de gestion des stagiaires :",
+      "elems":[
+        "Conception et développement des fonctionnalités",
+        "Intégration des interfaces"
+      ],
+      "env":"Environnement technologique : C#, ASP.NET(MVC), SQL Server, HTML, CSS, JS"
+    },
+    "images":[
+      "assets/img/GestionStagiaire/login.jpeg",
+      "assets/img/GestionStagiaire/home.png",
+      "assets/img/GestionStagiaire/home1.png",
+      "assets/img/GestionStagiaire/listStagiaire.png",
+      "assets/img/GestionStagiaire/listAttente.png",
+      "assets/img/GestionStagiaire/finStage.png"
+    ],
+    "fltr":"web"
+  },
+  {
+    "name":"GestionClientCommande",
+    "client":"SUPMTI Oujda, Maroc",
+    "date":"2021",
+    "url":"https://github.com/oussamahoumada/Gestion-Client-Comande-",
+    "discription":{
+      "titre":"Développement d’une application desktop pour gérer le stock d’un magasin :",
+      "elems":[
+        "Conception et développement des fonctionnalités",
+        "Intégration des interfaces",
+        "Fonctionnalité du CRUD d’un Produit/Client"
+      ],
+      "env":"Environnement technologique : JAVAFX, XML,SCENE BUILDER, MYSQL"
+    },
+    "images":[
+      "assets/img/GestionClientCommande/login.png",
+      "assets/img/GestionClientCommande/home.png",
+      "assets/img/GestionClientCommande/Effectuer_une_commande.png",
+      "assets/img/GestionClientCommande/Chercher_Commande.png",
+      "assets/img/GestionClientCommande/Ajouter_un_client.png",
+      "assets/img/GestionClientCommande/Ajouter_Produit.png"
+    ],
+    "fltr":"disctop"
+  },
+  {
+    "name":"Quizz App",
+    "client":"Université Paris8 Paris, France",
+    "date":"Mars 2023",
+    "url":"https://quiz-aq.netlify.app/quizList",
+    "discription":{
+      "titre":"Développement d’une application de quizz :",
+      "elems":[
+        "Ce projet est une série de quizz qui permet d’évaluer vos connaissances en informatique en réalisant les quiz qui sont sous forme de 10 questions."
+      ],
+      "env":"Environnement technologique : Angular, Angular Material UI, Bootstrap"
+    },
+    "images":[
+      "assets/img/quizApp/home.png",
+      "assets/img/quizApp/welcome.png",
+      "assets/img/quizApp/questions.png",
+      "assets/img/quizApp/result.png"
+    ],
+    "fltr":"web"
+  }
+]

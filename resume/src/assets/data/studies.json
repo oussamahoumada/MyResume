@@ -1,8 +1,8 @@
 [
   {
-    "name":"Maser",
-    "year":"De 2022 à 2023  Paris8   Paris, France",
-    "disc":"M1 Technologies de l'Hypermédia"
+    "name":"BTS",
+    "year":"De 2018 à 2020 CENTRE MIXTE DE FORMATION PROFESSIONNELLE Oujda, Maroc",
+    "disc":"BTS en développement informatique"
   },
   {
     "name":"Licence L3",
@@ -15,8 +15,72 @@
     "disc":"L3 en informatique"
   },
   {
-    "name":"BTS",
-    "year":"De 2018 à 2020 CENTRE MIXTE DE FORMATION PROFESSIONNELLE Oujda, Maroc",
-    "disc":"BTS en développement informatique"
+    "name":"Maser",
+    "year":"De 2022 à 2023  Paris8   Paris, France",
+    "disc":"M1 Technologies de l'Hypermédia"
+  },
+  {
+    "name":"Stage",
+    "year":"De novembre 2019 à janvier 2020 La direction informatique au sein de l’association de bienfaisance musulmane Oujda, Maroc",
+    "disc":{
+      "titre":"Conception et réalisation d’une application de gestion de bénéficiaires, et des employés :",
+      "elems":[
+        "Conception et développement des fonctionnalités",
+        "Intégration des interfaces",
+        "Fonctionnalité du CRUD d’un Employé, Bénéficiaire et Fourniture",
+        "Fonctionnalité du CRUD d’un Employé, Bénéficiaire et Fourniture"
+      ],
+      "env":"Environnement technologique : ADO.NET, C#, WinForms, SQL Server et Entity Framework."
+    }
+  },
+  {
+    "name":"Stage",
+    "year":"Mars 2020 Société AL Omrane Oujda, Maroc",
+    "disc":{
+      "titre":"Développement d’une application de gestion des stagiaires :",
+      "elems":[
+        "Conception et développement des fonctionnalités",
+        "Intégration des interfaces"
+      ],
+      "env":"Environnement technologique : C#, ASP.NET(MVC), SQL Server, HTML, CSS, JS"
+    }
+  },
+  {
+    "name":"Projet",
+    "year":"2021 SUPMTI Oujda, Maroc",
+    "disc":{
+      "titre":"Développement d’une application desktop pour gérer le stock d’un magasin :",
+      "elems":[
+        "Conception et développement des fonctionnalités",
+        "Intégration des interfaces",
+        "Fonctionnalité du CRUD d’un Produit"
+      ],
+      "env":"Environnement technologique : JAVAFX, XML,SCENE BUILDER, MYSQL"
+    }
+  },
+  {
+    "name":"Projet",
+    "year":"Mars 2023 Université Paris8 Paris, France",
+    "disc":{
+      "titre":"Développement d’une application de quizz :",
+      "elems":[
+        "Conception et développement des fonctionnalités",
+        "Intégration des interfaces"
+      ],
+      "env":"Environnement technologique : Angular, Angular Material UI, Bootstrap"
+    }
+  },
+  {
+    "name":"Projet",
+    "year":"Avril 2023 Freelance Paris, France",
+    "disc":{
+      "titre":"Développement d’une application desktop pour gérer le stock :",
+      "elems":[
+        "Conception et développement des fonctionnalités",
+        "Intégration des interfaces",
+        "Fonctionnalité du CRUD, Login."
+      ],
+      "env":"Environnement technologique : api REST avec asp.net core, Angular, Angular Material UI, Bootstrap, SQL Server"
+    }
   }
 ]

@@ -6,24 +6,37 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-6" *ngFor="let item of studiesList1">
-
-        <div class="resume-item">
+      <div class="col-lg-6" >
+        <h3 class="resume-title"> Diplômes et Formations </h3>
+        <div class="resume-item" *ngFor="let item of studiesList1">
           <h4>{{item.name}}</h4>
           <h5>{{item.disc}}</h5>
           <p>{{item.year}}</p>
         </div>
 
+        <h3 class="resume-title"> Expériences professionnelles </h3>
+        <div class="resume-item" *ngFor="let st of std">
+          <h4>{{st.name}}</h4>
+          <h5>{{st.year}}</h5>
+          <p>{{st.disc.titre}}</p>
+          <ul *ngFor="let elem of st.disc.elems">
+            <li> {{ elem }} </li>
+          </ul>
+          <p> {{ st.disc.env }} </p>
+        </div>
 
       </div>
-      <div class="col-lg-6" *ngFor="let item of studiesList2">
 
-        <div class="resume-item">
+      <div class="col-lg-6" >
+        <div class="resume-item" *ngFor="let item of studiesList2">
           <h4>{{item.name}}</h4>
-          <h5>{{item.disc}}</h5>
-          <p>{{item.year}}</p>
+          <h5>{{item.year}}</h5>
+          <p>{{item.disc.titre}}</p>
+          <ul *ngFor="let elem of item.disc.elems">
+            <li> {{ elem }} </li>
+          </ul>
+          <p> {{ item.disc.env }} </p>
         </div>
-
       </div>
     </div>
 

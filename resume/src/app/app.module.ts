@@ -10,6 +10,12 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SkillsService } from 'src/services/skills.service';
+import { DetailsComponent } from './portfolio/details/details.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+import { MatStepperModule } from '@angular/material/stepper'
+import { MatGridListModule } from '@angular/material/grid-list'
 
 @NgModule({
   declarations: [
@@ -18,12 +24,18 @@ import { SkillsService } from 'src/services/skills.service';
     SkillsComponent,
     StudiesComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
+    MatButtonModule,
+    MatStepperModule,
+    MatGridListModule
   ],
   providers: [SkillsService],
   bootstrap: [AppComponent]

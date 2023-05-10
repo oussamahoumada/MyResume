@@ -1,0 +1,41 @@
+<section id="portfolio-details" class="portfolio-details">
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <input id="duration" value="1000" type="hidden" #duration>
+
+      <div class="col-lg-8">
+
+        <mat-stepper #stepper [animationDuration] = "duration.value">
+
+          <mat-step *ngFor="let item of data.images">
+            <img src="{{item}}" alt="" style="width: 100%;height: inherit;">
+          </mat-step>
+
+        </mat-stepper>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Client</strong>: {{ data.client }}</li>
+            <li><strong>Project date</strong>: {{ data.date }}</li>
+            <li><strong>Project URL</strong>: <a href="{{ data.url }}"> URL </a></li>
+          </ul>
+        </div>
+        <div class="portfolio-description">
+          <h2>Detail : </h2>
+          <p> {{data.discription.titre }} </p>
+          <ul *ngFor="let item of data.discription.elems">
+            <li>{{ item }}</li>
+          </ul>
+          <p> {{ data.discription.env }} </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
