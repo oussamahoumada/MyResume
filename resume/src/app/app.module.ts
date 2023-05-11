@@ -14,8 +14,9 @@ import { DetailsComponent } from './portfolio/details/details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
-import { MatStepperModule } from '@angular/material/stepper'
-import { MatGridListModule } from '@angular/material/grid-list'
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { MatGridListModule } from '@angular/material/grid-list'
     MatDialogModule,
     MatButtonModule,
     MatStepperModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [SkillsService],
   bootstrap: [AppComponent]

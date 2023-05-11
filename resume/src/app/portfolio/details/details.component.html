@@ -10,7 +10,7 @@
         <mat-stepper #stepper [animationDuration] = "duration.value">
 
           <mat-step *ngFor="let item of data.images">
-            <img src="{{item}}" alt="" style="width: 100%;height: inherit;">
+            <img  src="{{item}}" alt="" style="width: 100%;height: inherit;max-height: 500px;">
           </mat-step>
 
         </mat-stepper>
@@ -18,7 +18,7 @@
 
       <div class="col-lg-4">
         <div class="portfolio-info">
-          <h3>Project information</h3>
+          <h3>{{ data.name }}</h3>
           <ul>
             <li><strong>Client</strong>: {{ data.client }}</li>
             <li><strong>Project date</strong>: {{ data.date }}</li>

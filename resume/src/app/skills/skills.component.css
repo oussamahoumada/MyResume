@@ -1,0 +1,74 @@
+
+#skills h2 {
+  color: #31D2F2;
+}
+#skills .title-ability {
+  color: #31D2F2;
+  text-align: center;
+}
+#skills #conteiner-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+  padding: 0px 20px;
+}
+#skills #conteiner-cards .iconHabilits {
+  width: 15%;
+  margin-left: 45%;
+  border-radius: 10% 10% 10% 50%;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+#skills #conteiner-cards .cards {
+  color: rgb(81, 81, 81);
+  text-decoration: none;
+  border: 2px solid #31D2F2;
+  border-radius: 7px;
+  flex: 0 0 200px;
+  cursor: pointer;
+}
+#skills #conteiner-cards .cards.impar {
+  position: relative;
+  transform: translateY(-15px);
+}
+#skills #conteiner-cards .cards:hover {
+  border: 2px solid #31D2F2;
+  box-shadow: 0px 1px 2px 1px #31D2F2;
+  transition: 0.7s ease;
+}
+#skills #conteiner-cards .cards:hover .iconHabilits {
+  transition: 0.5s;
+  filter: grayscale(0);
+}
+#skills #conteiner-resposta-abilidade {
+  color: #31D2F2;
+  text-align: center;
+  padding: 20px;
+}
+#skills #btn-mais-skills {
+  display: none;
+}
+#skills label {
+  width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 920px) {
+  #skills #btn-mais-skills {
+    margin: 15px 0px;
+    display: block;
+  }
+  #skills .habilidade-descartavel {
+    display: none;
+  }
+  #skills #mais-skills:checked ~ #conteiner-cards .habilidade-descartavel {
+    display: block;
+  }
+  #skills #conteiner-cards .cards.impar {
+    position: relative;
+    transform: translateY(0px);
+  }
+}

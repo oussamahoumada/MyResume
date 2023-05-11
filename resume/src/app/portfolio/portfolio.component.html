@@ -16,10 +16,10 @@
       </div>
     </div>
 
-      <mat-grid-list cols="3" >
-        <mat-grid-tile *ngFor="let it of projectList">
+      <mat-grid-list cols="2" style="max-width: 90%;">
+        <mat-grid-tile *ngFor="let it of projectList" style="content: 100%;">
             <div class="portfolio-wrap filter-app">
-              <img src = "{{it.images[0]}}" class="img-fluid" alt="...">
+              <img src = "{{it.images[0]}}" class="img-fluid" alt="..." style="max-height: 400px;">
               <div class="portfolio-info">
                 <h4> {{ it.name }} </h4>
                 <p>App</p>

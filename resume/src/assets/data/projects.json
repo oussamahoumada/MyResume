@@ -1,7 +1,6 @@
 [
   {
     "name":"Gestion des stagiaires",
-    "client":"Société AL Omrane Oujda, Maroc",
     "date":"Mars 2020 ",
     "url":"https://github.com/oussamahoumada/Gestion-Stagaires",
     "discription":{
@@ -24,8 +23,7 @@
   },
   {
     "name":"GestionClientCommande",
-    "client":"SUPMTI Oujda, Maroc",
-    "date":"2021",
+    "date":"Juin 2021",
     "url":"https://github.com/oussamahoumada/Gestion-Client-Comande-",
     "discription":{
       "titre":"Développement d’une application desktop pour gérer le stock d’un magasin :",
@@ -34,7 +32,7 @@
         "Intégration des interfaces",
         "Fonctionnalité du CRUD d’un Produit/Client"
       ],
-      "env":"Environnement technologique : JAVAFX, XML,SCENE BUILDER, MYSQL"
+      "env":"Technologies : JAVAFX, XML,SCENE BUILDER, MYSQL"
     },
     "images":[
       "assets/img/GestionClientCommande/login.png",
@@ -47,8 +45,28 @@
     "fltr":"disctop"
   },
   {
+    "name":"Reservation",
+    "date":"Avril 2022",
+    "url":"https://github.com/oussamahoumada/Reservation",
+    "discription":{
+      "titre":"Développement d’une application de gstion des reservations :",
+      "elems":[
+        "Cette application est un outil pratique conçu pour simplifier le processus de réservation. Elle offre une interface conviviale permettant aux utilisateurs de visualiser les disponibilités des maisons, de réserver rapidement et de gérer leurs réservations."
+      ],
+      "env":"Technologies : ADO.NET, C#, WinForms, SQL Server et Entity Framework"
+    },
+    "images":[
+      "assets/img/reservation/login.png",
+      "assets/img/reservation/home.png",
+      "assets/img/reservation/reservation.png",
+      "assets/img/reservation/ajouterClient.png",
+      "assets/img/reservation/finReservation.png",
+      "assets/img/reservation/perte.png"
+    ],
+    "fltr":"disctop"
+  },
+  {
     "name":"Quizz App",
-    "client":"Université Paris8 Paris, France",
     "date":"Mars 2023",
     "url":"https://quiz-aq.netlify.app/quizList",
     "discription":{
@@ -56,7 +74,7 @@
       "elems":[
         "Ce projet est une série de quizz qui permet d’évaluer vos connaissances en informatique en réalisant les quiz qui sont sous forme de 10 questions."
       ],
-      "env":"Environnement technologique : Angular, Angular Material UI, Bootstrap"
+      "env":"Technologies : Angular, Angular Material UI, Bootstrap"
     },
     "images":[
       "assets/img/quizApp/home.png",

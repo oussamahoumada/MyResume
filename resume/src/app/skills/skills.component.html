@@ -1,5 +1,5 @@
 <section id="skills" class="skills section-bg">
-  <div class="container" data-aos="fade-up">
+  <!--<div class="container" data-aos="fade-up">
 
     <div class="section-title">
       <h2>Compétences</h2>
@@ -29,5 +29,28 @@
         </div>
       </div>
     </div>
+  </div>-->
+<!--<mat-grid-list cols="5" rowHeight="2:1">
+  <mat-grid-tile *ngFor="let item of skillsList">
+
+    <b>{{ item.name }}</b>
+    <img mat-card-sm-image style="width: 20%; max-height: 50%;margin-left: 5%;" src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+
+  </mat-grid-tile>
+</mat-grid-list>-->
+
+
+  <div data-aos="zoom-in">
+      <div class="section-title">
+        <h2> Compétences </h2>
+      </div>
+      <div id="conteiner-cards" >
+          <a href="#skills" class="cards" id="h1" *ngFor="let item of skillsList">
+              <h3 class="title-ability">{{ item.name }}</h3>
+              <img src="{{ item.icon }}" class="iconHabilits" alt="icon_c#">
+          </a>
+      </div>
   </div>
+
+
 </section>

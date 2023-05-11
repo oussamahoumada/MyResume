@@ -20,10 +20,10 @@
     "disc":"M1 Technologies de l'Hypermédia"
   },
   {
-    "name":"Stage",
+    "name":"Conception et réalisation d’une application de gestion de bénéficiaires, et des employés :",
     "year":"De novembre 2019 à janvier 2020 La direction informatique au sein de l’association de bienfaisance musulmane Oujda, Maroc",
     "disc":{
-      "titre":"Conception et réalisation d’une application de gestion de bénéficiaires, et des employés :",
+      "titre":"",
       "elems":[
         "Conception et développement des fonctionnalités",
         "Intégration des interfaces",
@@ -34,10 +34,10 @@
     }
   },
   {
-    "name":"Stage",
+    "name":"Développement d’une application de gestion des stagiaires :",
     "year":"Mars 2020 Société AL Omrane Oujda, Maroc",
     "disc":{
-      "titre":"Développement d’une application de gestion des stagiaires :",
+      "titre":"",
       "elems":[
         "Conception et développement des fonctionnalités",
         "Intégration des interfaces"
@@ -46,7 +46,7 @@
     }
   },
   {
-    "name":"Projet",
+    "name":"Développement d’une application desktop pour gérer le stock d’un magasin :",
     "year":"2021 SUPMTI Oujda, Maroc",
     "disc":{
       "titre":"Développement d’une application desktop pour gérer le stock d’un magasin :",
@@ -59,10 +59,10 @@
     }
   },
   {
-    "name":"Projet",
+    "name":"Développement d’une application de quizz :",
     "year":"Mars 2023 Université Paris8 Paris, France",
     "disc":{
-      "titre":"Développement d’une application de quizz :",
+      "titre":"",
       "elems":[
         "Conception et développement des fonctionnalités",
         "Intégration des interfaces"
@@ -71,10 +71,10 @@
     }
   },
   {
-    "name":"Projet",
+    "name":"Développement d’une application desktop pour gérer le stock :",
     "year":"Avril 2023 Freelance Paris, France",
     "disc":{
-      "titre":"Développement d’une application desktop pour gérer le stock :",
+      "titre":"",
       "elems":[
         "Conception et développement des fonctionnalités",
         "Intégration des interfaces",

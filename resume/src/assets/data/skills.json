@@ -1,85 +1,106 @@
 [
   {
     "name":"C#",
-    "progress":"80%"
+    "progress":"80%",
+    "icon":"assets/img/icons/csharp.png"
   },
   {
     "name":"JAVA",
-    "progress":"70%"
+    "progress":"70%",
+    "icon":"assets/img/icons/java.png"
   },
   {
     "name":"PHP",
-    "progress":"70%"
+    "progress":"70%",
+    "icon":"assets/img/icons/php.png"
   },
   {
     "name":"Python",
-    "progress":"60%"
+    "progress":"60%",
+    "icon":"assets/img/icons/python.png"
   },{
     "name":"Angular",
-    "progress":"80%"
+    "progress":"80%",
+    "icon":"assets/img/icons/angular.png"
   },
   {
     "name":"React",
-    "progress":"70%"
+    "progress":"70%",
+    "icon":"assets/img/icons/react.png"
   },
   {
     "name":"NodeJs",
-    "progress":"60%"
+    "progress":"60%",
+    "icon":"assets/img/icons/node.png"
   },
   {
     "name":"JavaScript",
-    "progress":"80%"
+    "progress":"80%",
+    "icon":"assets/img/icons/javascript.png"
   },
   {
     "name":"TypeScript",
-    "progress":"80%"
+    "progress":"80%",
+    "icon":"assets/img/icons/typescript.png"
   },
   {
     "name":"HTML",
-    "progress":"100%"
+    "progress":"100%",
+    "icon":"assets/img/icons/html.png"
   },
   {
     "name":"CSS",
-    "progress":"65%"
+    "progress":"65%",
+    "icon":"assets/img/icons/css.png"
   },
   {
     "name":"BootStrap",
-    "progress":"70%"
+    "progress":"70%",
+    "icon":"assets/img/icons/bootstrap.png"
   },
   {
     "name":"EntityFramework,",
-    "progress":"80%"
+    "progress":"80%",
+    "icon":"assets/img/icons/entityframework.png"
   },
   {
     "name":".Net core",
-    "progress":"80%"
+    "progress":"80%",
+    "icon":"assets/img/icons/NET_Core.png"
   },
   {
     "name":"Laravel",
-    "progress":"50%"
+    "progress":"50%",
+    "icon":"assets/img/icons/laravel.png"
   },
   {
     "name":"Symfony",
-    "progress":"50%"
+    "progress":"50%",
+    "icon":"assets/img/icons/symfony.png"
   },
   {
     "name":"SQL Server",
-    "progress":"85%"
+    "progress":"85%",
+    "icon":"assets/img/icons/sqlserver.png"
   },
   {
     "name":"MySQL",
-    "progress":"85%"
+    "progress":"85%",
+    "icon":"assets/img/icons/mysql.png"
   },
   {
     "name":"UML",
-    "progress":"60%"
+    "progress":"60%",
+    "icon":"assets/img/icons/uml.png"
   },
   {
     "name":"Merise",
-    "progress":"70%"
+    "progress":"70%",
+    "icon":"assets/img/icons/merise.png"
   },
   {
     "name":"Git",
-    "progress":"80%"
+    "progress":"80%",
+    "icon":"assets/img/icons/git.png"
   }
 ]
